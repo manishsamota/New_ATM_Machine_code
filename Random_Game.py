@@ -1,12 +1,12 @@
-import random
-ran=random.randint(1,10)
+import random  # Here we import random lybray
+ran=random.randint(1,10) #It will generate a random number between 1 to 10.
 
 
-def play():
+def play():  # Define a function 
     
-    while(True):
+    while(True):  # Define a while loop for always true
         inp=int(input("Enter the guess numbernumber ="))
-        if(inp>ran):
+        if(inp>ran): # Define the conditional satement for check the input number from user, it is greater or small then random number 
             print("You guess wrong number, enter a smaller number")
         elif(inp<ran):
             print("You guess wrong number, enter a grater number")
