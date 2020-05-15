@@ -5,7 +5,7 @@ int main()
 {
  
  int a,l;
- cout<<"***Welcome on our ATM service***";
+ cout<<"Welcome on our ATM service";
  cout<<"\nPlease select the language";
  cout<<"\nFor English click [1]";
  cout<<"\nFor Hindi click [2] " ;
@@ -19,10 +19,10 @@ int main()
    cout<<"\n You are selected Hindi\n";
 
     cout<<"\nPlease selected your account type";
-      cout<<"\nFor Current Accout click [1]";
-      cout<<"\nFor Saving Accout click [2]";
-      cout<<"\nFor Recurring deposit Accout click [3]";
-      cout<<"\nFor Fixed deposit Accout click [4]";
+      cout<<"\nFor Current Accout click on [1]";
+      cout<<"\nFor Saving Accout click on [2]";
+      cout<<"\nFor Recurring deposit Accout click on [3]";
+      cout<<"\nFor Fixed deposit Accout click on [4]";
       cout<<"\n=";
        cin>>a;
 	if(a==1 || a==2 || a==3 || a==4) // Here I also use OR logic gate
@@ -44,10 +44,10 @@ int main()
 	     if(op==1)
 	     {
 	       cout<<"\nPlease select the Function";
-	       cout<<"\nfor Withdraw click []1]";
-	       cout<<"\nfor Deposit click [2]";
-	       cout<<"\nfor Clear click 3]";
-	       cout<<"\nfor Exit click [4]";
+	       cout<<"\nfor Withdraw click on [1]";
+	       cout<<"\nfor Deposit click on [2]";
+	       cout<<"\nfor Clear click on [3]";
+	       cout<<"\nfor Exit click on [4]";
 	       cout<<"\n=";
 	       cin>>s;
 	       if(s==1||s==2||s==3||s==4) //Here I also used OR logical gate. 
