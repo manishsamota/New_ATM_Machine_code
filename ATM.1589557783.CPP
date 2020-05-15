@@ -11,7 +11,7 @@ int main()
  cout<<"\nFor Hindi click [2] " ;
  cout<<"\n=";
  cin>>l;
-  if(l==1 || l==2) // Here I used OR logical gate in this condition if one condition saticfy then it will execute otherwise not.
+  if(l==1 || l==2)
   {
    if(l==1)
    cout<<"\n You are selected English\n ";
@@ -25,7 +25,7 @@ int main()
       cout<<"\nFor Fixed deposit Accout click on [4]";
       cout<<"\n=";
        cin>>a;
-	if(a==1 || a==2 || a==3 || a==4) // Here I also use OR logic gate
+	if(a==1 || a==2 || a==3 || a==4)
 	{
 	 if(a==1)
 	 cout<<"\nYou are selected  Current Accout ";
@@ -50,7 +50,7 @@ int main()
 	       cout<<"\nfor Exit click on [4]";
 	       cout<<"\n=";
 	       cin>>s;
-	       if(s==1||s==2||s==3||s==4) //Here I also used OR logical gate. 
+	       if(s==1||s==2||s==3||s==4)
 		{
 		 if(s==1)
 		 cout<<"\nWithdarw option selected";
@@ -63,7 +63,7 @@ int main()
 
 		  long int p,total=10000,withdraw;
 		  long int deposit;
-		  if (s==1 ||s==2) //Here I also used OR logical gate.
+		  if (s==1 ||s==2)
 		   {
 		    if (s==1)
 		     {
@@ -74,9 +74,9 @@ int main()
 			 cout<<"\nYour avaliable balance is ="<<total;
 			 cout<<"\nEnter the withdraw balance =";
 			 cin>>withdraw;
-			  if(withdraw<=40000) // According to this condition you can't withdraw more then 40,000.00 
+			  if(withdraw<=40000)
 			   {
-			    if(withdraw<=total)// Accoding to this condition can't withdraw more then total amount
+			    if(withdraw<=total)
 			     {
 			      total=total-withdraw;
 			      cout<<"\nYour withdraw balance is ="<<withdraw;
@@ -93,7 +93,7 @@ int main()
 		  cout<<"\n If you want to take Recipt then click on [1]";
 		  cout<<"\n Otherwise click on [2]\n =";
 		  cin>>t;
-		   if(t==1||t==2)  //Here I also used OR logical gate.
+		   if(t==1||t==2)
 		    {
 		     if(t==1)
 		     cout<<"\n Please take the recept";
@@ -111,7 +111,9 @@ int main()
 		  else
 		  cout<<"Please withdarw the money under =40000.";
 		  }
-	       
+	       //	 else
+		// cout<<"You are not having="<<withdraw<<" Rupes. "<<"You are haveing only="<<total<<" Rupes.";
+		// }
 		}
 		else
 		cout<<"\nPlease enter the valid four number pin for open the withdraw function";
